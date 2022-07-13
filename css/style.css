@@ -11,6 +11,7 @@
 
 body {
     background-color: var(--background-color-white);
+    color: var(--color-text);
 }
 
 .inner {
@@ -18,7 +19,34 @@ body {
     margin: 0 auto;
 }
 
+/* header -------------------------------------  */
+
+header,
+header .inner,
+nav ul {
+    display: flex;
+    align-items: center;
+}
+
+header {
+    background-color: var(--color-red);
+    color: #FFFFFF;
+    height: 80px;
+}
+
+header .inner {
+    justify-content: space-between;
+}
+
+nav li {
+    margin-right: 40px;
+}
+
+/* end of header -------------------------------------  */
+
+
 /* for sp ------------------------------------- */
+
 @media (max-width: 767px) {
     .inner {
         width: calc(100% - 32px);
