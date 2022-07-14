@@ -15,6 +15,23 @@ body {
     color: var(--color-text);
 }
 
+p {
+    font-size: 15px;
+    line-height: 1.6;
+}
+
+h2 {
+    font-size: 32px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
 .inner {
     width: 83%;
     margin: 0 auto;
