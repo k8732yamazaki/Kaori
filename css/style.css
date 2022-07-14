@@ -20,7 +20,6 @@ body {
 }
 
 /* header -------------------------------------  */
-
 header,
 header .inner,
 nav ul {
@@ -41,12 +40,24 @@ header .inner {
 nav li {
     margin-right: 40px;
 }
-
 /* end of header -------------------------------------  */
 
+/* hero -------------------------------------  */
+#hero {
+    width: 100%;
+}
+
+#hero>div {
+    background-image: url("../images/hero.png");
+    height: 40vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* end of hero -------------------------------------  */
 
 /* for sp ------------------------------------- */
-
 @media (max-width: 767px) {
     .inner {
         width: calc(100% - 32px);
