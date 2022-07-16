@@ -93,12 +93,8 @@ nav li {
 
 /* service -------------------------------------  */
 
-#service .content_group {
-    padding: 40px 0 0;
-}
-
 #service .content {
-    margin-bottom: 80px;
+    margin: 40px 0 80px;
 }
 
 .container_card {
