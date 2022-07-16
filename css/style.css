@@ -119,6 +119,19 @@ nav li {
 
 /* end of service -------------------------------------  */
 
+/* school -------------------------------------  */
+
+#school .inner {
+    margin: 0 auto;
+    padding: 90px 0  100px;
+}
+
+#school {
+    background-color: var(--color-gray);
+}
+
+/* end of school -------------------------------------  */
+
 /* for sp ------------------------------------- */
 @media (max-width: 767px) {
     .inner {
