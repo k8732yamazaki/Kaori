@@ -18,8 +18,10 @@ body {
 p {
     font-size: 15px;
     line-height: 1.6;
+}
+
+.textAlign_L {
     text-align: left;
-    
 }
 
 h2, h3, h4, .btn_contact {
@@ -45,7 +47,7 @@ h4 {
     padding: 90px 0 0;
 }
 
-h2, h3, h4, .toggle_title, .textAlign_center {
+h2, h3, h4, p, .toggle_title {
     text-align: center;
 }
 
