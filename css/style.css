@@ -22,7 +22,7 @@ p {
     
 }
 
-h2, h3, h4 {
+h2, h3, h4, .btn_contact {
     font-weight: 500;
 }
 
@@ -101,8 +101,21 @@ nav li {
     margin: 40px 0 0;
 }
 
+.card a {
+    font-size: 13px;
+}
+
 .clients {
     margin: 80px 0 0;
+}
+
+.clients h4 {
+    line-height: 2;
+}
+
+.clients h4 span {
+    font-size: 15px;
+    font-weight: initial;
 }
 
 #service  h4 {
@@ -111,6 +124,14 @@ nav li {
 
 .toggle_content {
     margin: 0 0 50px;
+}
+
+.toggle_title {
+    font-size: 18px;
+}
+
+.toggle_title li {
+    font-size: 15px;
 }
 
 /* end of service -------------------------------------  */
@@ -126,6 +147,10 @@ nav li {
     background-color: var(--color-gray);
 }
 
+#school h4 {
+    font-size: 20px;
+}
+
 /* end of school -------------------------------------  */
 
 /* contact -------------------------------------  */
@@ -136,6 +161,11 @@ nav li {
 
 .btn_contact {
     margin: 30px 0 100px;
+    font-size: 18px;
+}
+
+.copy {
+    font-size: 12px;
 }
 
 /* end of contact -------------------------------------  */
