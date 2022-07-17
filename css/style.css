@@ -141,16 +141,44 @@ nav li {
     border-bottom: 2px solid var(--color-gray);
 }
 
+.clients_container {
+    width: 50%;
+    margin: 30px auto 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.clients_column {
+    width: 252px;
+}
+
 .toggle_content {
-    margin: 0 0 50px;
+    width: 60%;
+    margin: 0 auto 50px;
 }
 
 .toggle_title {
     font-size: 18px;
+    width: 150%;
+    margin: 0 -25%;
 }
 
-.toggle_title li {
+.toggle_content .borderB_line {
+    border-color: var(--color-red);
+}
+
+.toggle_content dd {
+    margin-top: 20px;
+}
+
+.toggle_content li {
     font-size: 15px;
+    margin-bottom: 1em;
+}
+
+.toggle_content li a {
+    color: var(--color-blue);
+    text-decoration: underline;
 }
 
 /* end of service -------------------------------------  */
