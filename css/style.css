@@ -105,7 +105,7 @@ nav li {
 }
 
 #hero>div {
-    background-image: url("../images/hero.png");
+    background-image: url(../images/hero.png);
     height: 40vh;
     background-position: center;
     background-size: cover;
@@ -118,6 +118,19 @@ nav li {
 
 #service .content {
     margin: 40px 0 80px;
+}
+
+#service h3::before {
+    vertical-align: middle;
+    margin: 0 10px 0 0;
+}
+
+#service .ttl_group::before {
+    content: url(../images/icon_group.png);
+}
+
+#service .ttl_individual::before {
+    content: url(../images/icon_individual.png);
 }
 
 #service .card {
