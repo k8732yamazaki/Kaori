@@ -59,11 +59,17 @@ h2, h3, h4, p, .toggle_title {
     margin: 40px 0 0;
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .card {
     background-color: #FFFFFF;
     filter: drop-shadow(0px 4px 10px rgba(208, 208, 208, 0.5));
+}
+
+.toggle_content li a, #school span {
+    color: var(--color-blue);
+    text-decoration: underline;
 }
 
 /* header -------------------------------------  */
@@ -176,11 +182,6 @@ nav li {
     margin-bottom: 1em;
 }
 
-.toggle_content li a {
-    color: var(--color-blue);
-    text-decoration: underline;
-}
-
 /* end of service -------------------------------------  */
 
 /* school -------------------------------------  */
@@ -196,6 +197,16 @@ nav li {
 
 #school h4 {
     font-size: 20px;
+}
+
+#school .card, .card_empty {
+    margin: 20px 0% 0 0;
+    width: 284px;
+    padding: 20px;
+}
+
+#school .card h4, #school .card p {
+    margin: 20px 0 0;
 }
 
 /* end of school -------------------------------------  */
