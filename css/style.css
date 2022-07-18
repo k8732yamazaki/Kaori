@@ -220,6 +220,7 @@ nav li {
 
 #company th {
     width: 100px;
+    color: var(--color-red);
 }
 
 #company td {
