@@ -121,16 +121,21 @@ nav li {
 }
 
 #service h3::before {
-    vertical-align: middle;
+    content: "";
+    display: inline-block;
+    background-size: contain;
+    width: 36px;
+    height: 36px;
+    vertical-align: top;
     margin: 0 10px 0 0;
 }
 
 #service .ttl_group::before {
-    content: url(../images/icon_group.png);
+    background-image: url(../images/icon_group.png);
 }
 
 #service .ttl_individual::before {
-    content: url(../images/icon_individual.png);
+    background-image: url(../images/icon_individual.png);
 }
 
 #service .card {
