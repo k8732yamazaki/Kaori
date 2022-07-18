@@ -147,8 +147,25 @@ nav li {
     margin-top: 15px;
 }
 
-.card a {
-    font-size: 13px;
+#service .card span {
+    position: relative;
+    display: inline-block;
+    color: var(--color-red);
+    width: calc(100% + 2em);
+    margin-left: -1.5em;
+}
+
+#service .card span::after {
+    content: "";
+    position: absolute;
+    width: 0.5em;
+    height: 0.5em;
+    border-top: solid 1px var(--color-red);
+    border-right: solid 1px var(--color-red);
+    transform: rotate(45deg);
+    top: 50%;
+    margin-top: calc(-0.4em/2);
+    margin-left: 0.5em;
 }
 
 .clients {
