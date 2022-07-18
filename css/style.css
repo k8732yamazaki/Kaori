@@ -15,6 +15,10 @@ body {
     color: var(--color-text);
 }
 
+img {
+    width: 100%;
+}
+
 p {
     font-size: 15px;
     line-height: 1.6;
@@ -215,7 +219,14 @@ nav li {
 
 #company .content, .staff {
     display: flex;
-    justify-content: space-between;    
+    justify-content: space-between;
+    align-items: center;
+}
+
+#company tr {
+    margin: 20px 0 0;
+    display: block;
+    vertical-align: top;
 }
 
 #company th {
