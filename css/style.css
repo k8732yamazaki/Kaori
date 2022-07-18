@@ -211,15 +211,61 @@ nav li {
 
 /* end of school -------------------------------------  */
 
+/* company -------------------------------------  */
+
+#company .content, .staff {
+    display: flex;
+    justify-content: space-between;    
+}
+
+#company th {
+    width: 100px;
+}
+
+#company td {
+    width: 452px;
+}
+
+.staff {
+    gap: 30px;
+}
+
+.staff_left {
+    width: 160px;
+}
+
+.staff_right {
+    width: 394px;
+}
+
+/* end of company -------------------------------------  */
+
 /* contact -------------------------------------  */
+
+#contact {
+    background: linear-gradient(rgba(226, 88, 88, 1.0), rgba(226, 88, 88, 1.0)), url("../images/hero.png");
+    background-blend-mode: hard-light;
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 90px 0 60px;
+    color: #FFFFFF;
+    text-shadow: 1px 1px 0 var(--color-red);
+}
 
 #contact h2 {
     margin-bottom: 40px;
 }
 
 .btn_contact {
-    margin: 30px 0 100px;
+    margin: 30px auto 100px;
     font-size: 18px;
+    color: var(--color-red);
+    background-color: #FFFFFF;
+    width: 260px;
+    line-height: 3em;
+    border-radius: 100px;
+    text-shadow: none;
 }
 
 .copy {
