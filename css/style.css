@@ -187,7 +187,7 @@ nav li {
 }
 
 .clients_container {
-    width: 60%;
+    width: 70%;
     margin: 30px auto 0;
     display: flex;
     justify-content: space-between;
@@ -204,8 +204,8 @@ nav li {
 
 .toggle_title {
     font-size: 18px;
-    width: 150%;
-    margin: 0 -25%;
+    width: 120%;
+    margin: 0 -10%;
 }
 
 .toggle_content .borderB_line {
@@ -213,12 +213,17 @@ nav li {
 }
 
 .toggle_content dd {
-    margin-top: 20px;
+    margin: 20px auto 0;
+}
+
+.clients_column:first-child dd {
+    width: 60%;
 }
 
 .toggle_content li {
     font-size: 15px;
     margin-bottom: 1em;
+    line-height: 1.6;
 }
 
 /* end of service -------------------------------------  */
