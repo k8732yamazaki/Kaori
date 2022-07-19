@@ -187,14 +187,14 @@ nav li {
 }
 
 .clients_container {
-    width: 50%;
+    width: 60%;
     margin: 30px auto 0;
     display: flex;
     justify-content: space-between;
 }
 
 .clients_column {
-    width: 252px;
+    width: 50%;
 }
 
 .toggle_content {
