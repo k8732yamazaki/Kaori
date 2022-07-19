@@ -319,6 +319,12 @@ nav li {
     text-shadow: none;
 }
 
+.btn_contact::before {
+    content: url('data:image/svg+xml;utf-8,<svg width="30" height="20" viewBox="0 0 30 20" fill="none" xmlns="http://www.w3.org/2000/svg"><rect width="30" height="20" rx="2" fill="%23E25858"/><path d="M25 4.99998L15.6247 12.5002C15.2595 12.7924 14.7405 12.7924 14.3753 12.5002L5 4.99998" stroke="white" stroke-width="2" stroke-linecap="round"/><path d="M5 15.0002L10.7629 10.3335M25 15.0002L19.2371 10.3335" stroke="white" stroke-width="2" stroke-linecap="round"/></svg>');
+    vertical-align: middle;
+    margin-right: 10px;
+}
+
 .copy {
     font-size: 12px;
 }
