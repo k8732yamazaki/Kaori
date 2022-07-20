@@ -261,11 +261,12 @@ nav li {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    gap: 30px;
 }
 
 #company tr {
     margin: 20px 0 0;
-    display: block;
+    display: inline-block;
     vertical-align: top;
 }
 
@@ -278,8 +279,8 @@ nav li {
     width: 452px;
 }
 
-.staff {
-    gap: 30px;
+.company_box {
+    flex: 1;
 }
 
 .staff img {
@@ -291,7 +292,7 @@ nav li {
 }
 
 .staff_right {
-    width: 394px;
+    flex: 1;
 }
 
 /* end of company -------------------------------------  */
