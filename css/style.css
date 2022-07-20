@@ -264,6 +264,7 @@ nav li {
     justify-content: space-between;
     align-items: center;
     gap: 30px;
+    flex-wrap: wrap;
 }
 
 #company tr {
@@ -360,7 +361,7 @@ nav li {
     }
     
     .inner {
-        width: calc(100% - 32px);
+        width: calc(100% - 4em);
         margin: 0 auto 40px;
         padding: 40px 0 0;
     }
@@ -408,5 +409,31 @@ nav li {
         padding: 1em 0 0;
         border-top: 2px solid var(--color-red);
         border-bottom: none;
+    }
+
+    #company th {
+        width: 30%;
+    }
+
+    #company .content, .staff {
+        display: block;
+    }
+
+    .company_box {
+        margin: 40px 0 0;
+    }
+
+    .staff_left {
+        width: 60%;
+        margin: 0 auto .8em;
+    }
+
+    .staff_name {
+        font-size: 16px;
+        margin: 1em 0 0;
+    }
+
+    .staff_name br {
+        display: none;
     }
 }
