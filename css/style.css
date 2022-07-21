@@ -52,6 +52,11 @@ h4 {
     padding: 90px 0 0;
 }
 
+#school .inner, #contact .inner {
+    margin: 0 auto;
+    padding: 90px 0 100px;
+}
+
 h2, h3, h4, p, .toggle_title {
     text-align: center;
 }
@@ -232,11 +237,6 @@ nav li {
 
 /* school -------------------------------------  */
 
-#school .inner {
-    margin: 0 auto;
-    padding: 90px 0 100px;
-}
-
 #school {
     background-color: var(--color-gray);
 }
@@ -313,7 +313,6 @@ nav li {
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
-    padding: 90px 0 60px;
     color: #FFFFFF;
     text-shadow: 1px 1px 0 var(--color-red);
 }
@@ -341,6 +340,10 @@ nav li {
 
 .copy {
     font-size: 12px;
+}
+
+#contact br {
+    display: none;
 }
 
 /* end of contact -------------------------------------  */
@@ -371,6 +374,10 @@ nav li {
         padding: 40px 0 0;
     }
 
+    #school .inner, #contact .inner {
+        padding: 40px 0;
+    }
+
     .content{
         margin: 20px 0 0;
     }
@@ -379,6 +386,8 @@ nav li {
         display: block;
         margin: 0;
     }
+
+/* end of general ------------------------------------- */
 
     .clients {
         margin: 40px 0 0;
@@ -419,10 +428,6 @@ nav li {
         padding: 1em 0 0;
         border-top: 2px solid var(--color-red);
         border-bottom: none;
-    }
-
-    #school .inner {
-        padding: 40px 0;
     }
 
     #school .card {
@@ -482,4 +487,13 @@ nav li {
     .staff_name br {
         display: none;
     }
+
+    #contact br {
+        display: block;
+    }
+
+    .btn_contact {
+        margin: 20px auto 60px;
+    }
+
 }
