@@ -69,12 +69,12 @@ h2, h3, h4, p, .toggle_title {
     margin: 40px 0 0;
     display: flex;
     justify-content: space-between;
-    flex-wrap: wrap;
 }
 
 .card {
     background-color: #FFFFFF;
     filter: drop-shadow(0px 4px 10px rgba(208, 208, 208, 0.5));
+    border-radius: 4px;
 }
 
 .toggle_content li a, #school span {
@@ -126,6 +126,10 @@ nav li {
     margin: 40px 0 80px;
 }
 
+#service .container_card {
+    gap: 4%;
+}
+
 #service h3::before {
     content: "";
     display: inline-block;
@@ -145,8 +149,8 @@ nav li {
 }
 
 #service .card {
-    width: 362px;
-    padding: 54px;
+    width: 100%;
+    padding: 2em;
 }
 
 #service .card p {
@@ -245,9 +249,16 @@ nav li {
     font-size: 20px;
 }
 
+#school .container_card {
+    flex-wrap: wrap;
+}
+
+#school .container_card a, .card_empty {
+    width: 24%;
+}
+
 #school .card, .card_empty {
     margin: 20px 0 0 0;
-    width: 284px;
     padding: 20px;
 }
 
@@ -348,7 +359,25 @@ nav li {
 
 /* end of contact -------------------------------------  */
 
+/* for tablet ------------------------------------- */
+
+@media (max-width: 960px) {
+    
+    .inner {
+        width: calc(100% - 4em);
+    }
+    .company_box {
+        flex: auto;
+    }
+
+    .staff_name {
+        line-height: 1.4;
+        margin: 0.5em 0 0;
+    }
+}
+
 /* for sp ------------------------------------- */
+
 @media (max-width: 767px) {
     
     p {
@@ -480,7 +509,6 @@ nav li {
     }
 
     .staff_name {
-        font-size: 16px;
         margin: 1em 0 0;
     }
 
