@@ -57,7 +57,7 @@ h2, h3, h4, p, .toggle_title {
 }
 
 .content {
-    margin-top: 60px;
+    margin: 60px 0 0;
 }
 
 .container_card {
@@ -269,9 +269,13 @@ nav li {
 }
 
 #company tr {
-    margin: 20px 0 0;
+    margin: 0 0 20px;
     display: inline-block;
     vertical-align: top;
+}
+
+#company tr:last-child {
+    margin: 0;
 }
 
 #company th {
@@ -458,11 +462,15 @@ nav li {
     }
 
     .company_box {
+        margin: 20px 0 0;
+    }
+
+    .company_box:last-child {
         margin: 40px 0 0;
     }
 
     .staff_left {
-        width: 60%;
+        width: 70%;
         margin: 0 auto .8em;
     }
 
