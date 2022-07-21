@@ -253,6 +253,7 @@ nav li {
 
 #school .card h4, #school .card p {
     margin: 20px 0 0;
+    overflow-wrap: break-word;
 }
 
 /* end of school -------------------------------------  */
@@ -366,16 +367,21 @@ nav li {
         padding: 40px 0 0;
     }
 
-    .container_card {
-        margin: 0;
+    .content{
+        margin: 20px 0 0;
     }
 
-    #service .content {
-        margin: 20px 0 40px;
+    .container_card {
+        display: block;
+        margin: 0;
     }
 
     .clients {
         margin: 40px 0 0;
+    }
+    
+    #service .content {
+        margin: 20px 0 40px;
     }
 
     #service .card {
@@ -411,11 +417,34 @@ nav li {
         border-bottom: none;
     }
 
+    #school .inner {
+        padding: 40px 0;
+    }
+
     #school .card {
         width: calc(100% + 2em);
         margin: 20px -1em 0;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding: 1em;
     }
     
+    #school .card h4 {
+        margin: 0;
+        text-align: left;
+        font-size: 18px;
+    }
+
+    #school .card img {
+        width: 35%;
+    }
+    
+    #school .card>div {
+        width: 60%;
+    }
+
     .card_empty {
         display: none;
     }
