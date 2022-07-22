@@ -11,8 +11,11 @@
 
 body {
     font-family: 'Zen Kaku Gothic New', sans-serif;
-    background-color: var(--background-color-white);
     color: var(--color-text);
+}
+
+#index {
+    background-color: var(--background-color-white);
 }
 
 img {
@@ -148,6 +151,10 @@ nav li {
 
 #service .ttl_individual::before {
     background-image: url(../images/icon_individual.png);
+}
+
+#service h4 {
+    color: var(--color-red);
 }
 
 #service .card p {
@@ -357,6 +364,17 @@ nav li {
 
 /* end of contact -------------------------------------  */
 
+.container_program {
+    width: 80%;
+    margin: 0 auto;
+    padding: 10px 0 0;
+}
+
+.container_program p {
+    margin-top: 30px;
+}
+
+
 /* for tablet ------------------------------------- */
 
 @media (max-width: 1024px) {
@@ -521,4 +539,13 @@ nav li {
     .btn_contact {
         margin: 20px auto 60px;
     }
+    
+    .container_program {
+        width: 100%;
+    }
+
+    .container_program p {
+        margin-top: 1em;
+    }
+
 }
