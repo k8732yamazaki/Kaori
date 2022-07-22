@@ -452,7 +452,7 @@ nav li {
         margin: 0 auto 2em;
     }
 
-    .toggle_content:last-child li {
+    .toggle_content li:last-child {
         margin: 0 auto;
     }
 
