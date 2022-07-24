@@ -488,13 +488,14 @@ nav li {
 
     .toggle_content dd {
         height: 0;
-        overflow: hidden;
         transition-duration: 0.5s;
+        overflow: hidden;
     }
-
+    
+/* 
     .toggle_content dd.open {
-        height: auto;
-    }
+        padding: 0 0 390px;
+    } */
 
     #school .card {
         width: calc(100% + 2em);
