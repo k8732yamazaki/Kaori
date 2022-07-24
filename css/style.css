@@ -468,17 +468,32 @@ nav li {
     }
     
     .toggle_content {
-        margin: 0 auto 2em;
+        margin: 0 auto;
     }
 
-    .toggle_content li:last-child {
-        margin: 0 auto;
+    .toggle_content.open {
+        margin: 0 auto 1em;
     }
 
     .toggle_content .borderB_line {
         padding: 1em 0 0;
         border-top: 2px solid var(--color-red);
         border-bottom: none;
+    }
+
+    /* .clients_column:last-child .toggle_content:last-child .borderB_line {
+        padding: 1em 0;
+        border-bottom: 2px solid var(--color-red);
+    } */
+
+    .toggle_content dd {
+        height: 0;
+        overflow: hidden;
+        transition-duration: 0.5s;
+    }
+
+    .toggle_content dd.open {
+        height: auto;
     }
 
     #school .card {
