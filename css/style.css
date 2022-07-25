@@ -229,7 +229,11 @@ nav li {
 }
 
 .toggle_content dd {
-    margin: 20px auto 0;
+    margin: 0 auto;
+}
+
+.toggle_content ul {
+    padding: 20px 0 0;
 }
 
 .clients_column:first-child dd {
@@ -238,7 +242,7 @@ nav li {
 
 .toggle_content li {
     font-size: 15px;
-    margin-bottom: 1em;
+    padding-bottom: 1em;
     line-height: 1.6;
 }
 
@@ -476,26 +480,30 @@ nav li {
     }
 
     .toggle_content .borderB_line {
-        padding: 1em 0 0;
+        padding: 1em 0;
         border-top: 2px solid var(--color-red);
         border-bottom: none;
     }
 
+    .toggle_content ul {
+        padding: 0 0 1em;
+    }
+    
     /* .clients_column:last-child .toggle_content:last-child .borderB_line {
         padding: 1em 0;
         border-bottom: 2px solid var(--color-red);
     } */
 
     .toggle_content dd {
-        height: 0;
+        max-height: 0;
         transition-duration: 0.5s;
         overflow: hidden;
     }
     
-/* 
+
     .toggle_content dd.open {
-        padding: 0 0 390px;
-    } */
+        max-height: 100vh;
+    }
 
     #school .card {
         width: calc(100% + 2em);
