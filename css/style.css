@@ -105,8 +105,40 @@ header .inner {
     justify-content: space-between;
 }
 
+nav {
+    width: 100%;
+}
+
+nav ul {
+    justify-content: flex-end;
+}
+
 nav li {
-    margin-right: 40px;
+    margin-right: 4%;
+    position: relative;
+    padding: 0 4px;
+}
+
+nav li:last-child {
+    margin-right: 0;
+    position: relative;
+}
+
+nav li::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    bottom: -0.7em;
+    width: 0;
+    height: 2px;
+    background-color: #FFFFFF;
+    opacity: 0;
+    transition-duration: 0.5s;
+}
+
+nav li:hover::after {
+    width: 100%;
+    opacity: 1;
 }
 /* end of header -------------------------------------  */
 
