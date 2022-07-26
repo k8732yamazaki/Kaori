@@ -136,9 +136,11 @@ nav li::after {
     transition-duration: 0.5s;
 }
 
-nav li:hover::after {
-    width: 100%;
-    opacity: 1;
+@media (hover: hover) {
+    nav li:hover::after {
+        width: 100%;
+        opacity: 1;
+    }
 }
 /* end of header -------------------------------------  */
 
@@ -413,6 +415,15 @@ nav li:hover::after {
 
 
 /* for tablet ------------------------------------- */
+@media (hover: none) {
+    nav li:hover::after {
+        width: 0;
+    }
+    nav li:active::after {
+        width: 100%;
+        opacity: 1;
+    }
+}
 
 @media (max-width: 1024px) {
 
