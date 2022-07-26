@@ -466,11 +466,6 @@ nav li {
         width: 100%;
     }
     
-    .toggle_title {
-        width: 80%;
-        margin: 0 auto;
-    }
-    
     .toggle_content {
         margin: 0 auto;
     }
@@ -484,9 +479,33 @@ nav li {
         border-top: 2px solid var(--color-red);
         border-bottom: none;
     }
+    
+    .toggle_title {
+        width: 80%;
+        margin: 0 auto;
+        position: relative;
+    }
+    
+    .toggle_title::before, .toggle_title::after {
+        content: "";
+        position: absolute;
+        left: 2em;
+        top: 0;
+        bottom: 0;
+        margin: auto 0;
+        width: 2px;
+        height: 0.75em;
+        background-color: var(--color-red);
+        border-radius: 1em;
+        transition-duration: 0.5s;
+    }
+
+    .toggle_title::after {
+        transform: rotate(90deg);
+    }
 
     .toggle_content ul {
-        padding: 0 0 1em;
+        padding: 0;
     }
     
     /* .clients_column:last-child .toggle_content:last-child .borderB_line {
@@ -500,11 +519,15 @@ nav li {
         overflow: hidden;
     }
     
-
-    .toggle_content dd.open {
+    .toggle_content.open dd {
         max-height: 100vh;
+        margin: 0 auto 1em;
     }
 
+    .toggle_content.open .toggle_title::before {
+        transform: rotate(90deg);
+    }
+    
     #school .card {
         width: calc(100% + 2em);
         margin: 20px -1em 0;
