@@ -597,7 +597,7 @@ header nav li::after {
 
 /* end of general ------------------------------------- */
 
-    .clients {
+    #service .clients {
         margin: 40px 0 0;
     }
     
