@@ -8,11 +8,11 @@ toggle_title.forEach(function (toggle) {
 });
 
 // hamburger menu on smartphone
+const header = document.getElementsByTagName("header");
 
 function toggleNav() {
-    const header = document.getElementsByTagName("header");
-    const hamburger = document.getElementById("hamburger");
     const nav = header[0].querySelectorAll("nav");
+    const hamburger = document.getElementById("hamburger");
     
     hamburger.addEventListener('click', function () {
         header[0].classList.toggle("nav_open");
@@ -24,3 +24,23 @@ function toggleNav() {
     })
 };
 toggleNav();
+
+// anchor links smooth scroll
+
+const anchorLinks = document.querySelectorAll('a[href^="#"]');
+
+anchorLinks.forEach(function (link) {
+    link.addEventListener('click', function (e) {
+        e.preventDefault();
+        const targetId = link.hash;
+        const targetElement = document.querySelector(targetId);
+        const targetOffsetTop = window.pageYOffset + targetElement.getBoundingClientRect().top;
+        const headerHeight = header[0].offsetHeight;
+        const totalScrollAmount = targetOffsetTop - headerHeight;
+        // console.log(headerHeight);
+        window.scrollTo({
+            top: totalScrollAmount,
+            behavior: "smooth"
+        });
+    });
+});
