@@ -96,6 +96,9 @@ header nav ul {
 }
 
 header {
+    position: fixed;
+    width: 100%;
+    z-index: 200;
     background-color: var(--color-red);
     color: #FFFFFF;
     height: 80px;
@@ -484,12 +487,6 @@ header nav li::after {
     .container_card {
         display: block;
         margin: 0;
-    }
-
-    header {
-        position: fixed;
-        width: 100%;
-        z-index: 200;
     }
 
     header .inner {
