@@ -154,7 +154,7 @@ header nav li::after {
 }
 
 #hero>div {
-    background-image: url(../images/hero.png);
+    background-image: url(../images/hero.jpg);
     padding: 34.72% 0 0;
     background-position: center;
     background-size: cover;
@@ -387,7 +387,7 @@ header nav li::after {
 /* contact -------------------------------------  */
 
 #contact {
-    background: linear-gradient(rgba(226, 88, 88, 1.0), rgba(226, 88, 88, 1.0)), url("../images/contact_bg.png");
+    background: linear-gradient(rgba(226, 88, 88, 1.0), rgba(226, 88, 88, 1.0)), url("../images/contact_bg.jpg");
     background-blend-mode: hard-light;
     background-position: top;
     background-size: cover;
