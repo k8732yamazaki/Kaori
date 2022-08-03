@@ -87,6 +87,10 @@ h2, h3, h4, p, .toggle_title {
     text-decoration: underline;
 }
 
+#subpage #service .inner {
+    padding: 170px 0 0;
+}
+
 /* header -------------------------------------  */
 header,
 header .inner,
@@ -428,7 +432,7 @@ header nav li::after {
 /* end of contact -------------------------------------  */
 
 .container_program {
-    width: 80%;
+    width: 60%;
     margin: 0 auto;
     padding: 10px 0 0;
 }
@@ -495,6 +499,10 @@ header nav li::after {
     .inner {
         margin: 0 auto 40px;
         padding: 40px 0 0;
+    }
+
+    #subpage #service .inner {
+        padding: 120px 0 0;
     }
 
     #school .inner, #contact .inner {
