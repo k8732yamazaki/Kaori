@@ -701,11 +701,6 @@ header nav li::after {
         padding: 0;
     }
     
-    /* .clients_column:last-child .toggle_content:last-child .borderB_line {
-        padding: 1em 0;
-        border-bottom: 2px solid var(--color-red);
-    } */
-
     .toggle_content dd {
         max-height: 0;
         transition-duration: 0.5s;
@@ -745,7 +740,7 @@ header nav li::after {
         width: 60%;
     }
 
-    .card_empty {
+    .card_empty, .staff_name br {
         display: none;
     }
 
@@ -753,7 +748,7 @@ header nav li::after {
         width: 30%;
     }
 
-    #company .content, .staff {
+    #company .content, .staff, #contact br {
         display: block;
     }
 
@@ -765,26 +760,14 @@ header nav li::after {
         margin: 40px 0 0;
     }
 
-    .staff_left .staff_name {
+    .staff_left .staff_name, .container_program {
         width: 100%;
-    }
-
-    .staff_name br {
-        display: none;
-    }
-
-    #contact br {
-        display: block;
     }
 
     .btn_contact {
         margin: 20px auto 60px;
     }
     
-    .container_program {
-        width: 100%;
-    }
-
     .container_program p {
         margin-top: 1em;
     }
