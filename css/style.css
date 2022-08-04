@@ -172,7 +172,7 @@ header nav li::after {
     bottom: 0;
     width: 100%;
     height: 5em;
-    font-size: calc(100%*2.5);
+    font-size: 36px;
     margin: auto;
 }
 
@@ -458,10 +458,18 @@ header nav li::after {
     .clients_container {
         width: 100%;
     }
+
+    #hero>div>div {
+        font-size: 30px;
+    }
 }
 
 @media (max-width: 960px) {
     
+    #hero>div>div {
+        font-size: 24px;
+    }
+
     .inner {
         width: calc(100% - 4em);
     }
@@ -495,7 +503,15 @@ header nav li::after {
     h4 {
         font-size: 16px;
     }
-    
+
+    #hero>div {
+        padding-top: 42%;
+    }
+
+    #hero>div>div {
+        font-size: 20px;
+    }
+
     .inner {
         margin: 0 auto 40px;
         padding: 40px 0 0;
@@ -773,4 +789,17 @@ header nav li::after {
         margin-top: 1em;
     }
 
+}
+
+@media (max-width: 520px) {
+
+    #hero>div>div {
+        font-size: 18px;
+    }
+
+    #hero p span {
+        background: rgb(62, 9, 9, 0.6);
+        line-height: 1.8;
+        padding: 2px 4px;
+    }
 }
