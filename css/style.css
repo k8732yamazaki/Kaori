@@ -391,8 +391,7 @@ header nav li::after {
 /* contact -------------------------------------  */
 
 #contact {
-    background: linear-gradient(rgba(226, 88, 88, 1.0), rgba(226, 88, 88, 1.0)), url("../images/contact_bg.jpg");
-    background-blend-mode: hard-light;
+    background: url("../images/contact_bg.jpg");
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
