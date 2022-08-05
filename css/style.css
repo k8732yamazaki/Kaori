@@ -362,6 +362,21 @@ header nav li::after {
     padding: 20px;
 }
 
+#school .logo_cisdv {
+    background-color: #06253D;
+}
+
+#school .logo_studyinvictoria {
+    width: 50%;
+    margin: 0 auto;
+    display: block;
+}
+
+#school .logo_gvenglish {
+    background-color: #4B4A4C;
+}
+
+
 #school .card h4, #school .card p {
     margin: 20px 0 0;
     overflow-wrap: break-word;
@@ -774,6 +789,11 @@ header nav li::after {
         font-size: 18px;
     }
 
+    #school .card .logo_studyinvictoria {
+        width: 25%;
+        margin: 0 10px;
+    }
+    
     #school .card img {
         width: 35%;
     }
