@@ -188,6 +188,35 @@ header nav li::after {
 /* end of hero -------------------------------------  */
 
 /* service -------------------------------------  */
+#service .inner {
+    padding: 0;
+    margin: 0 auto;
+}
+
+#service > .inner {
+    padding: 90px 0 0;
+}
+
+#service .wrapper_content:last-child .inner {
+    margin: 0 auto 100px;
+}
+
+#service .wrapper_content {
+    position: relative;
+}
+
+#service .wrapper_content::before {
+    content: "";
+    width: 100%;
+    height: 106%;
+    position: absolute;
+    top: 6%;
+    left: -8%;
+    right: -8%;
+    background: url(../images/bg_dots.png) no-repeat top center;
+    margin: auto;
+    z-index: -1;
+}
 
 #service .content {
     margin: 40px 0 80px;
@@ -637,6 +666,12 @@ header nav li::after {
     }
 
 /* end of general ------------------------------------- */
+
+    #service .wrapper_content::before {
+        top: 20%;
+        background: url(../images/bg_dots_sp.png) no-repeat top center;
+        background-size: 100%;
+    }
 
     #service .clients {
         margin: 40px 0 0;
