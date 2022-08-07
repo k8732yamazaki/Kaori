@@ -590,6 +590,10 @@ header nav li::after {
         margin: 0;
     }
 
+    #school .container_card a {
+        width: 100%;
+    }
+    
     header {
         height: 60px;
     }
