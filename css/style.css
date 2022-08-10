@@ -171,7 +171,7 @@ header nav li::after {
 }
 
 #hero>div {
-    background-image: url(../images/hero.jpg);
+    background-image: url(../image/hero.jpg);
     padding: 34.72% 0 0;
     background-position: center;
     background-size: cover;
@@ -226,7 +226,7 @@ header nav li::after {
     top: 6%;
     left: -8%;
     right: -8%;
-    background: url(../images/bg_dots.png) no-repeat top center;
+    background: url(../image/bg_dots.png) no-repeat top center;
     margin: auto;
     z-index: -1;
 }
@@ -250,11 +250,11 @@ header nav li::after {
 }
 
 #service .ttl_group::before {
-    background-image: url(../images/icon_group.png);
+    background-image: url(../image/icon_group.png);
 }
 
 #service .ttl_individual::before {
-    background-image: url(../images/icon_individual.png);
+    background-image: url(../image/icon_individual.png);
 }
 
 #service .card p {
@@ -448,7 +448,7 @@ header nav li::after {
 /* contact -------------------------------------  */
 
 #contact {
-    background: url("../images/contact_bg.jpg");
+    background: url("../image/contact_bg.jpg");
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;
@@ -713,7 +713,7 @@ header nav li::after {
 
     #service .wrapper_content::before {
         top: 20%;
-        background: url(../images/bg_dots_sp.png) no-repeat top center;
+        background: url(../image/bg_dots_sp.png) no-repeat top center;
         background-size: 100%;
     }
 
