@@ -26,7 +26,7 @@ function toggleNav() {
 toggleNav();
 
 // anchor links smooth scroll
-const anchorLinks = document.querySelectorAll('a[href*="#"]');
+const anchorLinks = document.getElementById("index").querySelectorAll('a[href*="#"]');
 
 anchorLinks.forEach(function (link) {
     link.addEventListener('click', function (e) {
@@ -43,3 +43,12 @@ anchorLinks.forEach(function (link) {
         });
     });
 });
+
+document.addEventListener("DOMContentLoaded", () => {
+    if (location.hash) {
+      const headerHeight = header[0].clientHeight;
+      setTimeout(() => {
+        window.scrollBy(0, - headerHeight);
+      },100)
+    }
+})
