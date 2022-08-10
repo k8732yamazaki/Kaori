@@ -26,8 +26,7 @@ function toggleNav() {
 toggleNav();
 
 // anchor links smooth scroll
-
-const anchorLinks = document.querySelectorAll('a[href^="#"]');
+const anchorLinks = document.querySelectorAll('a[href*="#"]');
 
 anchorLinks.forEach(function (link) {
     link.addEventListener('click', function (e) {
@@ -37,7 +36,7 @@ anchorLinks.forEach(function (link) {
         const targetOffsetTop = window.pageYOffset + targetElement.getBoundingClientRect().top;
         const headerHeight = header[0].offsetHeight;
         const totalScrollAmount = targetOffsetTop - headerHeight;
-        // console.log(headerHeight);
+        
         window.scrollTo({
             top: totalScrollAmount,
             behavior: "smooth"
