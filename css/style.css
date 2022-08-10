@@ -152,6 +152,10 @@ header nav li::after {
     transition-duration: 0.5s;
 }
 
+.email_dummy {
+    display: none;
+}
+
 @media (hover: hover) {
     nav li:hover::after {
         width: 100%;
